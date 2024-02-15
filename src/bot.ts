@@ -30,7 +30,7 @@ if (!process.env.ASSISTANT_ID) {
                     }
                 }
             ],
-            model: 'gpt-4-1106-preview'
+            model: 'gpt-4-1106-preview' // update this to the model you want to use
         });
 
         console.log(`Created a new assistant with an ID of: ${assistant.id}`);
